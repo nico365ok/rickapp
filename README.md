@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# RickApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Introducción
 
-## Available Scripts
+Basado en la afamada serie [Rick and Morty](https://es.wikipedia.org/wiki/Rick_y_Morty), te propongo generar una aplicación de pagina única que muestre todos y cada uno de los personajes que aparecen a lo largo de los capítulos, añadiendo una descripción de interés. Para lograr este objetivo, vamos a hacer uso de [https://rickandmortyapi.com/](https://rickandmortyapi.com/), que nos proporciona una API para consumir datos propios de la serie. De paso, usaremos el mismo diseño de esa pagina para este proyecto.
 
-In the project directory, you can run:
+# Conceptos y/o recursos necesarios
 
-### `npm start`
+- [¿Qué son las APIs y para qué sirven?](¿Qué son las APIs y para qué sirven?)
+- [¿QUÉ es una web SPA? - Single Page Application](https://youtu.be/Fr5QGdJZBVo)
+- [¿Qué es React.js y cómo funciona?](https://youtu.be/lWQ69WX7-hA)
+- [Conocimientos de Javascript que debes conocer antes de aprender React.js](https://dev.to/programador51/conocimientos-de-javascript-que-debes-conocer-antes-de-aprender-react-js-4j67)
+- [React con Hooks](https://bluuweb.github.io/react/)
+- [Bootstrap con React](https://react-bootstrap.github.io/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Instalación
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Una vez descargado el repositorio, se debe abrir una terminal o consola dentro de la carpeta contenedora y ejecutar el siguiente comando
 
-### `npm test`
+```shell
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esto instalara todas las dependencias de la aplicación y dejara listo el ambiente para su ejecución con el comando 
 
-### `npm run build`
+```shell
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Revisar la salida de este comando en terminal para saber la dirección y el puerto de ejecución de la aplicación.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Desarrollo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 1. Maquetado HTML
 
-### `npm run eject`
+Como primer paso para dar desarrollar la app, te propongo revisar la [pagina](https://rickandmortyapi.com/) en la que nos basaremos para nuestra aplicación y analizar que componentes son visibles y listarlos. Podes hacerlo, en este mismo documento.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Luego, procederemos al maquetado HTML. Esto comprende implementar todos los componentes en HTML de la pagina, sin necesidad de estilos o animaciones. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A continuación, algunas recomendaciones:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Implementar un Layout
+- Implementar un Navbar
+- Implementar un Footer
+- Implementar un Main
+- Implementar al menos una Section
+- Implementar al menos una Tarjeta
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
