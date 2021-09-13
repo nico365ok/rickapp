@@ -1,6 +1,5 @@
-import Personaje from "./components/Personaje";
 const App = () => {
-  return <Personaje />;
+  return <h1>Hello!!!!</h1>;
 };
 
 export default App;
