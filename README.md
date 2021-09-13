@@ -6,7 +6,7 @@ Basado en la afamada serie [Rick and Morty](https://es.wikipedia.org/wiki/Rick_y
 
 # Conceptos y/o recursos necesarios
 
-- [¿Qué son las APIs y para qué sirven?](¿Qué son las APIs y para qué sirven?)
+- [¿Qué son las APIs y para qué sirven?](https://youtu.be/u2Ms34GE14U)
 - [¿QUÉ es una web SPA? - Single Page Application](https://youtu.be/Fr5QGdJZBVo)
 - [¿Qué es React.js y cómo funciona?](https://youtu.be/lWQ69WX7-hA)
 - [Conocimientos de Javascript que debes conocer antes de aprender React.js](https://dev.to/programador51/conocimientos-de-javascript-que-debes-conocer-antes-de-aprender-react-js-4j67)
